@@ -9,12 +9,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
 
-            steps {
-
-                git 'https://github.com/Nikkisj/OpenCartAutomationFramework'
-            }
         }
 
         stage('Build Project') {
