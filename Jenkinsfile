@@ -9,9 +9,6 @@ pipeline {
 
     stages {
 
-
-        }
-
         stage('Build Project') {
 
             steps {
